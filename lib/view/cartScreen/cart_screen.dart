@@ -5,6 +5,7 @@ class CartScreen extends StatefulWidget {
   static String id = "/cart";
 
   @override
+  // ignore: library_private_types_in_public_api
   _ClickableCardsPageState createState() => _ClickableCardsPageState();
 }
 

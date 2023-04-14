@@ -5,6 +5,7 @@ class ProfileScreen extends StatefulWidget {
   static String id = "/profile";
 
   @override
+  // ignore: library_private_types_in_public_api
   _ProfileScreenState createState() => _ProfileScreenState();
 }
 

@@ -38,29 +38,35 @@ dependencies:
   cupertino_icons: ^1.0.2
   provider: ^6.0.5
   fluttertoast: ^8.1.2
-  http: ^0.13.5
-  another_flushbar: ^1.12.29
+  # http: ^0.13.5
+  # another_flushbar: ^1.12.29
   google_fonts: ^4.0.3
   # github
   github: ^9.2.0
 
   # web related
-  flutter_html: any
-  url_strategy: ^0.2.0
-  universal_html: ^2.0.4
+  # flutter_html: any
+  # url_strategy: ^0.2.0
+  # universal_html: ^2.0.4
 
   
 
   # utils
-  mailto: ^2.0.0
-  flip_card: ^0.6.0
-  url_launcher: ^6.1.2
-  carousel_slider: ^4.0.0
-  animated_text_kit: ^4.2.1
+  # mailto: ^2.0.0
+  # flip_card: ^0.6.0
+  # url_launcher: ^6.1.2
+  # carousel_slider: ^4.0.0
+  # animated_text_kit: ^4.2.1
   font_awesome_flutter: ^10.4.0
 
   # cache
-  shared_preferences: ^2.0.6
+  # shared_preferences: ^2.0.6
+
+  # Firbase
+  # firebase_core: ^2.9.0
+  # firebase_auth: ^4.4.0
+  # firebase_storage: ^11.1.0
+  # cloud_firestore: ^4.5.1
 
 
 

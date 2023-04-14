@@ -1,6 +1,4 @@
 import 'dart:async';
-import 'package:ecommerce_app/responsive/responsive.dart';
-import 'package:ecommerce_app/view/dashBoard/dash_board.dart';
 import 'package:ecommerce_app/view/onBoarding/on_boarding.dart';
 import 'package:flutter/material.dart';
 
@@ -19,11 +17,8 @@ class _SplashScreenState extends State<SplashScreen> {
     // ignore: todo
     // TODO: implement initState
     super.initState();
-    Timer(
-        const Duration(seconds: 3),
-        () => !Responsive.isMobile(context)
-            ? Navigator.pushNamed(context, DashBoard.id)
-            : Navigator.pushNamed(context, OnBoarding.id));
+    Timer(const Duration(seconds: 3),
+        () => Navigator.pushNamed(context, OnBoarding.id));
   }
 
   @override

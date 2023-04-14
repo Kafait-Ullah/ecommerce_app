@@ -89,7 +89,7 @@ class OnBoarding extends StatelessWidget {
             Padding(
               padding: Space.h1!,
               child: Text(
-                "Loved the class Such beautiful land and collective impact infrastructure social entrepreneur.",
+                "Loved the class Such beautiful land and collective impact infrastructure\n social entrepreneur.",
                 style: AppText.b2!.copyWith(color: sLightBlack),
                 textAlign: TextAlign.center,
               ),

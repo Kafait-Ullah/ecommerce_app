@@ -33,7 +33,7 @@ class PopularProducts extends StatelessWidget {
         Padding(
           padding: Space.h1!,
           child: SizedBox(
-              height: AppDimensions.space(20),
+              height: AppDimensions.space(13.5),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: demoProducts.length,
@@ -58,11 +58,13 @@ class ProductCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => Navigator.pushNamed(context, Details.id,arguments: ProductDetailsArguments(product: product)),
+      onTap: () => Navigator.pushNamed(context, Details.id,
+          arguments: ProductDetailsArguments(product: product)),
       child: Padding(
         padding: Space.h!,
-        child: SizedBox(
-          height: AppDimensions.space(16),
+        // ignore: sized_box_for_whitespace
+        child: Container(
+          height: AppDimensions.space(12),
           width: AppDimensions.space(8),
           // decoration: BoxDecoration(color: Colors.amber),
           child: Column(

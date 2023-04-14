@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47889356413",
+    "project_id": "apexsphere",
+    "storage_bucket": "apexsphere.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47889356413:android:cde719539407ef5249c314",
+        "android_client_info": {
+          "package_name": "com.example.ecommerce_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47889356413-uk41moogc9j6t47v2il8kslqgfr2qltd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8eS94E8Wt8Ni0vVtpHyIwcJfATvw-qSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47889356413-uk41moogc9j6t47v2il8kslqgfr2qltd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
